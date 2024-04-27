@@ -4,8 +4,6 @@ volumes:
     driver: local
   prometheus-data:
     driver: local
-  config:
-    driver: local
 services:
   grafana:
     image: grafana/grafana-oss:latest
